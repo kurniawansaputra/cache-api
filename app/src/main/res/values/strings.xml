@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CacheAPI</string>
+    <string name="content_desc">Content Desc</string>
+</resources>
