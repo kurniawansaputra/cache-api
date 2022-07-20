@@ -9,6 +9,7 @@ import com.example.cacheapi.model.User
 @Database(entities = [User::class], version = 5)
 abstract class UserRoomDatabase: RoomDatabase() {
     abstract fun userDao(): UserDao
+
     companion object {
         @Volatile
         private var INSTANCE: UserRoomDatabase? = null
