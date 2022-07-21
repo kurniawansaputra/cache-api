@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/00 Project/Android/CacheAPI/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/00 Project/Android/CacheAPI/app/src/main/res/layout/item_row_user.xml" value="0.25" />
         <entry key="..\:/00 Project/CacheAPI/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/00 Project/CacheAPI/app/src/main/res/layout/item_row_user.xml" value="0.24895833333333334" />
       </map>

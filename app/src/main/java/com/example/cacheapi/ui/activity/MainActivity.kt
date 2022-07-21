@@ -8,6 +8,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.work.*
 import com.example.cacheapi.adapter.UserAdapter
 import com.example.cacheapi.databinding.ActivityMainBinding
+import com.example.cacheapi.model.User
 import com.example.cacheapi.viewmodel.MainViewModel
 import com.example.cacheapi.worker.Worker
 import kotlinx.coroutines.CoroutineScope
@@ -64,6 +65,10 @@ class MainActivity : AppCompatActivity() {
             binding.rvUser.adapter = userAdapter
             binding.rvUser.setHasFixedSize(true)
         }
+    }
+
+    fun onItemClicked(user: User, position: Int) {
+
     }
 
     private fun setLoading(isLoading: Boolean) {

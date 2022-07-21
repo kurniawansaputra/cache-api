@@ -45,6 +45,10 @@ class MainViewModel(application: Application): AndroidViewModel(application) {
         _isLoading.value = false
     }
 
+    fun deleteUser(user: User) {
+        repository.deleteUser(user)
+    }
+
     override fun onCleared() {
         super.onCleared()
         job.cancel()
